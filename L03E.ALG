@@ -1,26 +1,26 @@
-Algoritmo "L03A"
-// Disciplina   : [Lógica de Programação e JavaScript]
+Algoritmo "L03E"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o e JavaScript]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Elaborar um programa que apresente como resultado o valor de uma potência de uma base
+// DescriÃ§Ã£o   : Elaborar um programa que apresente como resultado o valor de uma potÃªncia de uma base
 //qualquer elevada a um expoente qualquer, ou seja, de BE
-//, em que B é o valor da base e E o valor
-//do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do
+//, em que B Ã© o valor da base e E o valor
+//do expoente. Observe que neste exercÃ­cio nÃ£o pode ser utilizado o operador de exponenciaÃ§Ã£o do
 //portuguol (^).
 // Autor(a)    : Barbara Benedetti Cavalcante
 // Data atual  : 07/09/2021
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    x, y,cont, total:inteiro
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreva("Digite o valor da base: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreva("Digite o valor da base")
    Leia(x)
-   Escreva("Digite o valor do expoente: ")
+   Escreva("Digite o valor do expoente")
    Leia(y)
    total<-1
    Enquanto (cont<y) faca
       total<-total*x
       cont<-cont+1
-   Fimenquanto
-   Escreval(x," elevado à ",y," = ",total)
+   fimenquanto
+   Escreval(x," elevado Ã  ",y," = ",total)
 Fimalgoritmo
